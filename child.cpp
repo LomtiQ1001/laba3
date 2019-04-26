@@ -5,29 +5,29 @@ using namespace std;
 
 void Child::set_name(string child_name)
 {
-    Child::name = child_name;
+    name = child_name;
 }
 string Child::get_name(){
-    return  Child::name;
+    return  name;
 }
 
 
 
 void Child::set_lastname(string child_lastname)
 {
-    Child::lastname = child_lastname;
+    lastname = child_lastname;
 }
 string Child::get_lastname(){
-    return  Child::lastname;
+    return  lastname;
 }
 
 
 
 void Child::set_age(int child_age)
 {
-    Child::age = child_age;
+    age = child_age;
 }
 int Child::get_age(){
-    return  Child::age;
+    return  age;
 }
 
