@@ -4,22 +4,22 @@
 
 void Complex::set_real(double complex_real)
 {
-    Complex::real = complex_real;
+    real = complex_real;
 }
 
 void Complex::set_imag(double complex_imag)
 {
-     Complex::imag = complex_imag;
+     imag = complex_imag;
 }
 
 double Complex::get_modul()
 {
-    Complex::mod = sqrt((real * real) + (imag * imag));
-    return Complex::mod;
+    mod = sqrt((real * real) + (imag * imag));
+    return mod;
 }
 
 double Complex::get_argum()
 {
-    Complex::arg = cos(real/mod);
-    return Complex::arg;
+    arg = cos(real/mod);
+    return arg;
 }
